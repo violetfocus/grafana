@@ -1,0 +1,37 @@
+{
+  "type": "panel",
+  "name": "my-plugin",
+  "id": "123-my-plugin",
+  "info": {
+    "description": "customize plugin",
+    "author": {
+      "name": "violetfocus",
+      "url": ""
+    },
+    "keywords": [
+      "custom",
+      "aaa"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-react-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
